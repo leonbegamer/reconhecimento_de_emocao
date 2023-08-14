@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>App Web de Colagens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<center>
+    <h1>Aplicativo Web de Colagem</h1>
+    <hr>
+    <h4>assim que pedir autorização da camera aceite</h4>
+    <h3>faça um rosto que represente emoções</h3>
+        <h4>clique no botão iniciar para comecar a capturas de imagens</h4>
+    <button class="btn btn primary" id="capturar" onclick="save()" >iniciar</button>
+    <br><br>
+    <label>a seção abaixo sera a sua camera</label>
+    <div id="camera">
+        <label>todas as fotos seram exibidas aqui</label>
+    </div>
+    <div id="resultShow">
+        <div id="result1">
+            <img src="pic1.jpg" style="width: 30%;">
+        </div>
+
+        <div id="result2">
+            <img src="pic2.jpg" style="width: 30%;">
+        </div>
+
+        <div id="result3">
+            <img src="pic3.jpg" style="width: 30%;">
+        </div>
+    </div>
+</center>
+</body>
+
+</html>
